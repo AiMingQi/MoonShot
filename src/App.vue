@@ -1,7 +1,11 @@
 <template>
   <v-app id="inspire">
     <v-navigation-drawer v-model="drawer" class="pa-2">
-      <v-img src="src/assets/human-moon.png" class="my-3 w-100" contain />
+      <v-img
+        src="https://firebasestorage.googleapis.com/v0/b/moonshot-dc8a7.appspot.com/o/human-moon.png?alt=media&token=e4e5d6a0-fcdd-4c2d-9fb4-82957d08abab"
+        class="my-3 w-100"
+        contain
+      />
       <v-btn class="my-1" color="primary" to="/packages" block prepend-icon="mdi-moon-new"
         >Packages</v-btn
       >

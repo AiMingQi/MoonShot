@@ -5,13 +5,14 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/human-moon.png" width="512" height="512" />
+    <img alt="Vue logo" class="logo" src="@/assets/human-moon.png" width="256" height="256" />
 
     <div class="wrapper">
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/packages">Packages</RouterLink>
         <RouterLink to="/addons">Add-Ons</RouterLink>
+        <RouterLink to="/cart">Checkout</RouterLink>
       </nav>
       <HelloWorld msg="MoonShot" />
     </div>
@@ -33,9 +34,9 @@ header {
 
 nav {
   width: 100%;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 nav a.router-link-exact-active {

@@ -11,7 +11,7 @@
           <v-card-text>
             <v-img
               src="https://firebasestorage.googleapis.com/v0/b/moonshot-dc8a7.appspot.com/o/economy-class.png?alt=media&token=f9d1dfcd-0ce8-49bc-b610-75ed6bc47167"
-              class="w-50 mx-auto"
+              class="w-75 mx-auto"
             >
             </v-img>
           </v-card-text>
@@ -30,7 +30,7 @@
           <v-card-text>
             <v-img
               src="https://firebasestorage.googleapis.com/v0/b/moonshot-dc8a7.appspot.com/o/first-class.png?alt=media&token=89b9c0ec-e204-4644-afd8-89bb9dadc10c"
-              class="w-50 mx-auto"
+              class="w-75 mx-auto"
             >
             </v-img>
           </v-card-text>

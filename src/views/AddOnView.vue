@@ -11,7 +11,7 @@
           <v-card-text>
             <v-img
               src="https://firebasestorage.googleapis.com/v0/b/moonshot-dc8a7.appspot.com/o/basic-suit.png?alt=media&token=bc90a2b9-b215-47ce-ad98-553223c36777"
-              class="w-50 mx-auto"
+              class="w-75 mx-auto"
             >
             </v-img>
           </v-card-text>
@@ -30,7 +30,7 @@
           <v-card-text>
             <v-img
               src="https://firebasestorage.googleapis.com/v0/b/moonshot-dc8a7.appspot.com/o/upgrade-suit.png?alt=media&token=6834369a-0e57-487f-b3e6-9979e145c668"
-              class="w-50 mx-auto"
+              class="w-75 mx-auto"
             >
             </v-img>
           </v-card-text>
@@ -49,7 +49,7 @@
           <v-card-text>
             <v-img
               src="https://firebasestorage.googleapis.com/v0/b/moonshot-dc8a7.appspot.com/o/photographer.png?alt=media&token=74b5e190-dde6-4ed1-9591-ff622e3f638e"
-              class="w-50 mx-auto"
+              class="w-75 mx-auto"
             >
             </v-img>
           </v-card-text>

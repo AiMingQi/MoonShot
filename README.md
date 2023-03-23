@@ -6,13 +6,12 @@ MoonShot is a future forward travel company designed to take normal travellers t
 
 ## UserFlow
 
-A person wants to go to the Moon.
+A person wants to go on a tour to the Moon.
 
-They Choose a Package
+1. User Chooses a Package
 
-They Choose Add-ons
+2. User Chooses Add-ons
 
-They Sign a Waiver
+3. User Signs a Waiver
 
-They Pay using Square
-
+4. User Pays using Square

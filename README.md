@@ -15,3 +15,9 @@ A person wants to go on a tour to the Moon.
 3. User Signs a Waiver
 
 4. User Pays using Square
+
+
+## Technology Integration
+
+- Vue 3
+- Vuex Store

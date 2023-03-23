@@ -24,4 +24,3 @@ A person wants to go on a tour to the Moon.
 - Firebase Hosting
 - Firestore DB
 - Square Payment
-Test

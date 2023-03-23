@@ -6,13 +6,13 @@
         class="my-3 w-100"
         contain
       />
-      <v-btn class="my-1" color="primary" to="/packages" block prepend-icon="mdi-moon-new"
+      <v-btn class="my-2" color="primary" to="/packages" block prepend-icon="mdi-moon-new"
         >Packages</v-btn
       >
-      <v-btn class="my-1" color="primary" to="/addons" block prepend-icon="mdi-moon-full"
+      <v-btn class="my-2" color="secondary" to="/addons" block prepend-icon="mdi-moon-full"
         >Add-Ons</v-btn
       >
-      <v-btn class="my-1" color="primary" to="/cart" block prepend-icon="mdi-cart">Checkout</v-btn>
+      <v-btn class="my-2" color="orange" to="/cart" block prepend-icon="mdi-cart">Checkout</v-btn>
     </v-navigation-drawer>
 
     <v-app-bar>

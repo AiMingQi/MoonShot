@@ -1,86 +1,47 @@
-<script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/human-moon.png" width="256" height="256" />
+  <v-app id="inspire">
+    <v-navigation-drawer v-model="drawer" class="pa-2">
+      <v-img src="src/assets/human-moon.png" class="my-3 w-100" contain />
+      <v-btn class="my-1" color="primary" to="/packages" block prepend-icon="mdi-moon-new"
+        >Packages</v-btn
+      >
+      <v-btn class="my-1" color="primary" to="/addons" block prepend-icon="mdi-moon-full"
+        >Add-Ons</v-btn
+      >
+      <v-btn class="my-1" color="primary" to="/cart" block prepend-icon="mdi-cart">Checkout</v-btn>
+    </v-navigation-drawer>
 
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/packages">Packages</RouterLink>
-        <RouterLink to="/addons">Add-Ons</RouterLink>
-        <RouterLink to="/cart">Checkout</RouterLink>
-      </nav>
-      <HelloWorld msg="MoonShot" />
-    </div>
-  </header>
+    <v-app-bar>
+      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-  <RouterView />
+      <v-app-bar-nav-icon to="/" icon="mdi-home"> </v-app-bar-nav-icon>
+      <v-toolbar-title to="/">MoonShot</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn to="/cart" icon="mdi-cart"> </v-btn>
+    </v-app-bar>
+
+    <v-main>
+      <router-view />
+    </v-main>
+    <v-footer app class="d-flex flex-column">
+      &copy; {{ new Date().getFullYear() }} Mitchell Valentine <v-spacer></v-spacer>
+      <a class="ml-2" href="https://singenuity.com" target="_blank" rel="noopener">
+        Powered by Singenuity</a
+      >
+    </v-footer>
+  </v-app>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-  max-height: 200vh;
-}
+<script lang="ts">
+import { defineComponent } from 'vue'
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
+export default defineComponent({
+  name: 'App',
 
-nav {
-  width: 100%;
-  font-size: 14px;
-  text-align: center;
-  margin-top: 1rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+  data() {
+    return {
+      drawer: false
+    }
   }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: rem;
-  }
-}
-</style>
+})
+</script>

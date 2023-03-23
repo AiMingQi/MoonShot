@@ -1,0 +1,1 @@
+import{_ as e,o as s,c,a}from"./index-858a9c2b.js";const o={},t={class:"complete"},_=a("h1",null,"Available Packages",-1),n=[_];function i(r,l){return s(),c("div",t,n)}const f=e(o,[["render",i],["__file","C:/Users/AiMingQi/Projects/MoonShot/src/views/PackagesView.vue"]]);export{f as default};

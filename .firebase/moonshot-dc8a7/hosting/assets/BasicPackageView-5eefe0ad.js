@@ -1,0 +1,1 @@
+import{_ as e,o as s,c,a}from"./index-858a9c2b.js";const _={},o={class:"basic"},t=a("h1",null,"The Basic Package",-1),i=[t];function n(r,l){return s(),c("div",o,i)}const f=e(_,[["render",n],["__file","C:/Users/AiMingQi/Projects/MoonShot/src/views/BasicPackageView.vue"]]);export{f as default};

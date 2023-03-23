@@ -3,7 +3,7 @@
     <v-row justify="space-around">
       <v-card width="400">
         <v-img
-          height="400"
+          height="350"
           src="https://firebasestorage.googleapis.com/v0/b/moonshot-dc8a7.appspot.com/o/moon-traveler.png?alt=media&token=81a7548d-3839-4501-b686-557375ce6628"
           cover
           class="text-white"
@@ -23,11 +23,10 @@
               :dot-color="message.color"
               size="x-small"
             >
-              <div class="mb-4">
+              <div class="mb-1">
                 <div class="font-weight-normal">
                   <strong>{{ message.from }}</strong> {{ message.type }}
                 </div>
-                <div>{{ message.message }}</div>
                 <div>Price: {{ message.price }}</div>
               </div>
             </v-timeline-item>
@@ -46,21 +45,18 @@ export default {
     messages: [
       {
         from: 'Package',
-        message: 'A Comfortable and Economical Choice',
         type: 'Economy',
         color: 'deep-purple-lighten-1',
         price: '$10,000'
       },
       {
         from: 'Add-On',
-        message: 'Advanced Suit',
         type: 'Suit Upgrade',
         price: '$1,000',
         color: 'green'
       },
       {
         from: 'Add-On',
-        message: 'Advanced Suit',
         type: 'Personal Photographer',
         price: '$2,000',
         color: 'green'

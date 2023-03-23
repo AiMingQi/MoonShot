@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="6">
+      <v-col cols="12" lg="4" md="4" sm="12">
         <v-card class="text-center">
           <v-card-title> Basic Suit </v-card-title>
           <v-card-subtitle> Price: Included </v-card-subtitle>
@@ -20,7 +20,7 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col cols="6">
+      <v-col cols="12" lg="4" md="4" sm="12">
         <v-card class="text-center">
           <v-card-title> Suit Upgrade </v-card-title>
           <v-card-subtitle> Price: $1000 </v-card-subtitle>
@@ -39,7 +39,7 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col cols="6">
+      <v-col cols="12" lg="4" md="4" sm="12">
         <v-card class="text-center">
           <v-card-title> Personal Photographer </v-card-title>
           <v-card-subtitle> Price: $2000 </v-card-subtitle>

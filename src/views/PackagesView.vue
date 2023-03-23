@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="6">
+      <v-col cols="12" lg="6" md="6" sm="12">
         <v-card class="text-center">
           <v-card-title> Economy Class </v-card-title>
           <v-card-subtitle> Price: $10,000 </v-card-subtitle>
@@ -20,7 +20,7 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col cols="6">
+      <v-col cols="12" lg="6" md="6" sm="12">
         <v-card class="text-center">
           <v-card-title> First Class </v-card-title>
           <v-card-subtitle> Price: $20,000 </v-card-subtitle>

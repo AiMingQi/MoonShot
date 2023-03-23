@@ -19,5 +19,8 @@ A person wants to go on a tour to the Moon.
 
 ## Technology Integration
 
-- Vue 3
+- Vue 3 w/ Typescript
 - Vuex Store
+- Firebase Hosting
+- Firestore DB
+- Square Payment

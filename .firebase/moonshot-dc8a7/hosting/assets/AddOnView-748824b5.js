@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as n,a as o}from"./index-a0db032a.js";const _={},t={class:"addons"},c=o("h1",null,"Package Add-Ons",-1),d=[c];function a(i,r){return s(),n("div",t,d)}const f=e(_,[["render",a],["__file","C:/Users/AiMingQi/Projects/MoonShot/src/views/AddOnView.vue"]]);export{f as default};

@@ -19,7 +19,7 @@
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
       <v-app-bar-nav-icon to="/" icon="mdi-home"> </v-app-bar-nav-icon>
-      <v-toolbar-title to="/">MoonShot</v-toolbar-title>
+      <h2 class="ml-1">MoonShot</h2>
       <v-spacer></v-spacer>
       <v-btn to="/cart" icon="mdi-cart"> </v-btn>
     </v-app-bar>

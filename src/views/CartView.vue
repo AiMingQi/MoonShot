@@ -1,16 +1,76 @@
 <template>
-  <div class="cart">
-    <h1>Your Cart</h1>
-  </div>
+  <v-container>
+    <v-row justify="space-around">
+      <v-card width="400">
+        <v-img
+          height="400"
+          src="https://firebasestorage.googleapis.com/v0/b/moonshot-dc8a7.appspot.com/o/moon-traveler.png?alt=media&token=81a7548d-3839-4501-b686-557375ce6628"
+          cover
+          class="text-white"
+        >
+          <v-toolbar color="rgba(0, 0, 0, 0)" theme="dark">
+            <v-toolbar-title class="text-h6"> Checkout </v-toolbar-title>
+          </v-toolbar>
+        </v-img>
+
+        <v-card-text>
+          <div class="font-weight-bold ms-1 mb-2">Selections</div>
+
+          <v-timeline density="compact" align="start">
+            <v-timeline-item
+              v-for="message in messages"
+              :key="message.time"
+              :dot-color="message.color"
+              size="x-small"
+            >
+              <div class="mb-4">
+                <div class="font-weight-normal">
+                  <strong>{{ message.from }}</strong> {{ message.type }}
+                </div>
+                <div>{{ message.message }}</div>
+                <div>Price: {{ message.price }}</div>
+              </div>
+            </v-timeline-item>
+          </v-timeline>
+        </v-card-text>
+        <v-btn block color="orange">Checkout with Square</v-btn>
+      </v-card>
+    </v-row>
+  </v-container>
 </template>
-    
-    <style>
-@media (min-width: 1024px) {
-  .cart {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+
+
+  <script>
+export default {
+  data: () => ({
+    messages: [
+      {
+        from: 'Package',
+        message: 'A Comfortable and Economical Choice',
+        type: 'Economy',
+        color: 'deep-purple-lighten-1',
+        price: '$10,000'
+      },
+      {
+        from: 'Add-On',
+        message: 'Advanced Suit',
+        type: 'Suit Upgrade',
+        price: '$1,000',
+        color: 'green'
+      },
+      {
+        from: 'Add-On',
+        message: 'Advanced Suit',
+        type: 'Personal Photographer',
+        price: '$2,000',
+        color: 'green'
+      },
+      {
+        from: 'Total',
+        price: '$13,000',
+        color: 'deep-purple-lighten-1'
+      }
+    ]
+  })
 }
-</style>
-    
+</script>

@@ -19,10 +19,10 @@
     In order to take improve the quality of my trip
     I want to purchase an add-on
 
-## Scenario: Selecting a seat upgrade
+## Scenario: Selecting a suit upgrade
     Given I am willing to pay $1000 USD extra
-    When I select seat upgrade
-    Then I should have a seat upgrade in my checkout
+    When I select suit upgrade
+    Then I should have a suit upgrade in my checkout
 
 ## Scenario: Selecting a photo package 
     Given I am willing to pay $500 USD extra

@@ -1,16 +1,45 @@
 <template>
-  <div class="complete">
-    <h1>Available Packages</h1>
-  </div>
+  <v-container>
+    <v-row>
+      <v-col cols="6">
+        <v-card class="text-center">
+          <v-card-title> Economy Class </v-card-title>
+          <v-card-subtitle> Price: $10,000 </v-card-subtitle>
+          <v-card-actions>
+            <v-btn block color="orange"> Select Economy Class</v-btn>
+          </v-card-actions>
+          <v-card-text>
+            <v-img
+              src="https://firebasestorage.googleapis.com/v0/b/moonshot-dc8a7.appspot.com/o/economy-class.png?alt=media&token=f9d1dfcd-0ce8-49bc-b610-75ed6bc47167"
+              class="w-50 mx-auto"
+            >
+            </v-img>
+          </v-card-text>
+          <v-card-text>
+            <h3>Comfortable Accomodations to Carry you to the Moon</h3>
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col cols="6">
+        <v-card class="text-center">
+          <v-card-title> First Class </v-card-title>
+          <v-card-subtitle> Price: $20,000 </v-card-subtitle>
+          <v-card-actions>
+            <v-btn block color="orange"> Select First Class</v-btn>
+          </v-card-actions>
+          <v-card-text>
+            <v-img
+              src="https://firebasestorage.googleapis.com/v0/b/moonshot-dc8a7.appspot.com/o/first-class.png?alt=media&token=89b9c0ec-e204-4644-afd8-89bb9dadc10c"
+              class="w-50 mx-auto"
+            >
+            </v-img>
+          </v-card-text>
+          <v-card-text>
+            <h3>Exclusive Accomodations to Carry you to the Moon</h3>
+            <h3>Also Includes complete photo package</h3>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
-    
-    <style>
-@media (min-width: 1024px) {
-  .complete {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
-    

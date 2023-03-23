@@ -41,22 +41,7 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AddOnView.vue')
     },
-    {
-      path: '/basic',
-      name: 'basicPackage',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/BasicPackageView.vue')
-    },
-    {
-      path: '/complete',
-      name: 'completePackage',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/CompletePackageView.vue')
-    }
+  
   ]
 })
 

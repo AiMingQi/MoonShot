@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as s,a as o}from"./index-858a9c2b.js";const _={},c={class:"cart"},r=o("h1",null,"Your Cart",-1),a=[r];function n(i,l){return t(),s("div",c,a)}const u=e(_,[["render",n],["__file","C:/Users/AiMingQi/Projects/MoonShot/src/views/CartView.vue"]]);export{u as default};

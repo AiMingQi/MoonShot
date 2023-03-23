@@ -1,7 +1,7 @@
 Feature: Choose Tour Package
-  As a traveller
-  In order to take a trip to the Moon
-  I want to purchase a tour to the Moon
+  -- As a traveller
+  -- In order to take a trip to the Moon
+  -- I want to purchase a tour to the Moon
 
   Scenario: Selecting a basic package 
     Given I am willing to pay $1000 USD

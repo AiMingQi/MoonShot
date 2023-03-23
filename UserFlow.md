@@ -62,8 +62,7 @@
     Given my payment is not successful or I cancel order
     Then I should be returned to checkout
     And I am given the opportunity to contact a sales person to resolve
-
-
+    
 # Feature: Order Complete
     As a traveller that ordered a package and completed payment
     In order to receive my package

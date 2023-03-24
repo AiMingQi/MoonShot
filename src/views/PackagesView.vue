@@ -16,7 +16,7 @@
             </v-img>
           </v-card-text>
           <v-card-text>
-            <h3>Comfortable Accomodations to Carry you to the Moon</h3>
+            <h3>Comfortable Accommodations to Carry you to the Moon</h3>
           </v-card-text>
         </v-card>
       </v-col>
@@ -35,7 +35,7 @@
             </v-img>
           </v-card-text>
           <v-card-text>
-            <h3>Exclusive Accomodations to Carry you to the Moon</h3>
+            <h3>Exclusive Accommodations to Carry you to the Moon</h3>
             <br />
             <h3>Also Includes Personal Photographer</h3>
           </v-card-text>

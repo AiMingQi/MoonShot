@@ -16,6 +16,7 @@
   "dependencies": {
     "@mdi/font": "5.9.55",
     "roboto-fontface": "*",
+    "square": "^25.2.0",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6",
     "vuetify": "^3.0.0-beta.0",

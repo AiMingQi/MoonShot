@@ -1,21 +1,27 @@
-<h2>Products</h2>
+<h2>Welcome to MoonShot</h2>
 <div *ngFor="let product of products">
     <h3>
         <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
-            {{ product.name }}
+           <h1>
+             {{ product.name }}
+
+           </h1> 
+          </a>
+        <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
+            <img [src]="product.image" alt="image"/>
           </a>
     </h3>
     <p *ngIf="product.description">
-        Description: {{ product.description }}
+        {{ product.description }}
       </p>
-      <button type="button" (click)="share()">
+      <!-- <button type="button" (click)="share()">
         Share
       </button>
       
       <app-product-alerts
   [product]="product" 
   (notify)="onNotify()">
-</app-product-alerts>
+</app-product-alerts> -->
 </div>
 
 <!-- 

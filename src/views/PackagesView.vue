@@ -4,7 +4,7 @@
       <v-col cols="12" lg="6" md="6" sm="12">
         <v-card class="text-center">
           <v-card-title> Economy Class </v-card-title>
-          <v-card-subtitle> Price: $10,000 </v-card-subtitle>
+          <v-card-subtitle> Price: $19,999 </v-card-subtitle>
           <v-card-actions>
             <v-btn block color="orange"> Select Economy Class</v-btn>
           </v-card-actions>
@@ -23,7 +23,7 @@
       <v-col cols="12" lg="6" md="6" sm="12">
         <v-card class="text-center">
           <v-card-title> First Class </v-card-title>
-          <v-card-subtitle> Price: $20,000 </v-card-subtitle>
+          <v-card-subtitle> Price: $199,999 </v-card-subtitle>
           <v-card-actions>
             <v-btn block color="orange"> Select First Class</v-btn>
           </v-card-actions>
@@ -36,7 +36,8 @@
           </v-card-text>
           <v-card-text>
             <h3>Exclusive Accomodations to Carry you to the Moon</h3>
-            <h3>Also Includes complete photo package</h3>
+            <br />
+            <h3>Also Includes Personal Photographer</h3>
           </v-card-text>
         </v-card>
       </v-col>

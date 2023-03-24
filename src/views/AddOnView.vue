@@ -4,7 +4,7 @@
       <v-col cols="12" lg="4" md="4" sm="12">
         <v-card class="text-center">
           <v-card-title> Basic Suit </v-card-title>
-          <v-card-subtitle> Price: Included </v-card-subtitle>
+          <v-card-subtitle> Price: $299 </v-card-subtitle>
           <v-card-actions>
             <v-btn block color="orange"> Select Basic Suit</v-btn>
           </v-card-actions>
@@ -16,14 +16,14 @@
             </v-img>
           </v-card-text>
           <v-card-text>
-            <h3>Comfortable Suit to Carry you to the Moon</h3>
+            <h3>Comfortable Suit to Protect you on the Moon</h3>
           </v-card-text>
         </v-card>
       </v-col>
       <v-col cols="12" lg="4" md="4" sm="12">
         <v-card class="text-center">
           <v-card-title> Suit Upgrade </v-card-title>
-          <v-card-subtitle> Price: $1000 </v-card-subtitle>
+          <v-card-subtitle> Price: $1299 </v-card-subtitle>
           <v-card-actions>
             <v-btn block color="orange"> Select Suit Upgrade</v-btn>
           </v-card-actions>
@@ -35,16 +35,16 @@
             </v-img>
           </v-card-text>
           <v-card-text>
-            <h3>High Tech Advanced Suit to Carry you to the Moon</h3>
+            <h3>High Tech Advanced Suit to Protect you on the Moon</h3>
           </v-card-text>
         </v-card>
       </v-col>
       <v-col cols="12" lg="4" md="4" sm="12">
         <v-card class="text-center">
-          <v-card-title> Personal Photographer </v-card-title>
-          <v-card-subtitle> Price: $2000 </v-card-subtitle>
+          <v-card-title> AI Photographer </v-card-title>
+          <v-card-subtitle> Price: $199 </v-card-subtitle>
           <v-card-actions>
-            <v-btn block color="orange"> Select Photographer Upgrade</v-btn>
+            <v-btn block color="orange"> Select AI Photographer Upgrade</v-btn>
           </v-card-actions>
           <v-card-text>
             <v-img
@@ -54,7 +54,7 @@
             </v-img>
           </v-card-text>
           <v-card-text>
-            <h3>Your own Personal Photographer to document your entire journey</h3>
+            <h3>Your own Personal AI Photographer to document your entire journey</h3>
           </v-card-text>
         </v-card>
       </v-col>

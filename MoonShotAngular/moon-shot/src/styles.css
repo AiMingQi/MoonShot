@@ -96,11 +96,11 @@
   
   .fancy-button {
     background-color: white;
-    color: #1976d2;
+    color: #5d0aaa;
   }
   
   .fancy-button i.material-icons {
-    color: #1976d2;
+    color: #5d0aaa;
     padding-right: 4px;
   }
   
@@ -109,7 +109,7 @@
   app-top-bar {
     width: 100%;
     height: 68px;
-    background-color: #1976d2;
+    background-color: #5d0aaa;
     padding: 16px;
     display: flex;
     flex-direction: row;
@@ -126,7 +126,7 @@
   
   .cart-item, .shipping-item {
     width: 100%;
-    min-width: 400px;
+    min-width: 300px;
     max-width: 450px;
     display: flex;
     flex-direction: row;
@@ -143,3 +143,5 @@
   Use of this source code is governed by an MIT-style license that
   can be found in the LICENSE file at https://angular.io/license
   */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -32,7 +32,7 @@
             </v-timeline-item>
           </v-timeline>
         </v-card-text>
-        <v-btn block color="orange">Checkout with Square</v-btn>
+        <PaymentForm />
       </v-card>
     </v-row>
   </v-container>
@@ -40,30 +40,34 @@
 
 
   <script>
+import PaymentForm from '@/components/PaymentForm.vue'
 export default {
+  components: {
+    PaymentForm
+  },
   data: () => ({
     messages: [
       {
         from: 'Package',
-        type: 'Economy',
+        type: 'Luxury',
         color: 'deep-purple-lighten-1',
-        price: '$10,000'
+        price: '$50,000'
       },
       {
         from: 'Add-On',
         type: 'Suit Upgrade',
-        price: '$1,000',
+        price: 'Included',
         color: 'green'
       },
       {
         from: 'Add-On',
-        type: 'Personal Photographer',
-        price: '$2,000',
-        color: 'green'
+        type: 'AI Photographer',
+        price: 'Included',
+        color: 'blue'
       },
       {
         from: 'Total',
-        price: '$13,000',
+        price: '$50,000',
         color: 'deep-purple-lighten-1'
       }
     ]

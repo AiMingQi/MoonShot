@@ -37,7 +37,7 @@
           <v-card-text>
             <h3>Exclusive Accommodations to Carry you to the Moon</h3>
             <br />
-            <h3>Also Includes Personal Photographer</h3>
+            <h3>Also Includes AI Photographer</h3>
           </v-card-text>
         </v-card>
       </v-col>
